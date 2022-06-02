@@ -42,10 +42,10 @@ int Train::getLength() {
       }
       if (!temp->light) {
         return size;
-      } 
+      }
       if (temp->light) {
         size = size_temp;
-      } 
+      }
     }
   }
   return 0;
